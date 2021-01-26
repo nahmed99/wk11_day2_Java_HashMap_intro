@@ -31,6 +31,10 @@ public class CountriesHash {
         System.out.println(countryPopulations.values());
         System.out.println(countryPopulations.keySet());
 
+        for (String country : countryPopulations.keySet()) {
+            System.out.println(country + ": " + countryPopulations.get(country));
+        }
+
         // put(key, value: Insert a new key/value pair into the hashmap
         // get(jey): Returns the value for the given key
         // size(): Returns the number of key/value pairs in the hashmap
