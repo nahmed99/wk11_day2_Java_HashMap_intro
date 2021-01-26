@@ -18,6 +18,7 @@ public class HashMapIntro {
         // size(): Returns the number of key/value pairs in the hashmap
         // clear(): removes all the key/value pairs in the hashmap.
         // contains(value): Return boolean if value exists in hashmap.
+        // remove(key): Removes pair with specified key.
 
     }
 
